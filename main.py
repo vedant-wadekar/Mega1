@@ -2,7 +2,7 @@ import speech_recognition as sr
 import webbrowser
 import pyttsx3
 import musiclib
-recognizer = sr.Recognizer()/
+recognizer = sr.Recognizer()
 engine = pyttsx3.init()
 
 def speak (text):
